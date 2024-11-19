@@ -1,0 +1,15 @@
+[submodule "src/meta-openembedded"]
+    path = src/meta-openembedded
+    url = git@github.com:openembedded/meta-openembedded.git
+
+[submodule "src/meta-raspberrypi"]
+    path = src/meta-raspberrypi
+    url = git@github.com:agherzan/meta-raspberrypi.git
+
+[submodule "src/poky"]
+    path = src/poky
+    url = git@github.com:yoctoproject/poky.git
+
+[submodule "src/linux"]
+    path = src/linux
+    url = git@github.com:raspberrypi/linux.git
