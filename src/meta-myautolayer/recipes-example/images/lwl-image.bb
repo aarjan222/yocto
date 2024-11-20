@@ -1,5 +1,6 @@
-SUMMARY = "A small boot image for LWL learners"
-inherit core-image
-LICENSE = "MIT"
-IMAGE_INSTALL = "packagegroup-core-boot"
-IMAGE_INSTALL += "usbutils" # for lsusb
+#resuing existing core-image-minimal image 
+require recipes-core/images/core-image-minimal.bb
+# require is not used for bbclass files, used for recipes
+# inherit is not used for bb files
+
+IMAGE_INSTALL += "usbutils"
