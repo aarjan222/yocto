@@ -29,3 +29,6 @@ tools/python-config
 workspace/*
 logs/
 files.txt
+
+.vscode
+*.log
