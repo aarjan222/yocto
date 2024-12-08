@@ -10,6 +10,10 @@
     path = src/poky
     url = git@github.com:yoctoproject/poky.git
 
-[submodule "src/linux"]
-    path = src/linux
-    url = git@github.com:raspberrypi/linux.git
+[submodule "src/meta-qt5"]
+    path = src/meta-qt5
+    url = git@github.com:meta-qt5/meta-qt5.git
+
+[submodule "src/openembedded-core"]
+    path = src/openembedded-core
+    url = git@github.com:openembedded/openembedded-core.git
